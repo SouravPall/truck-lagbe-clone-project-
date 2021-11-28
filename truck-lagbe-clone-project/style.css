@@ -1,0 +1,206 @@
+            * {
+                box-sizing: border-box;
+                margin: 0;
+                padding: 0;
+            }
+            
+            body {
+                color: #212121;
+                font-family: arial, helvetica, sans-serif;
+                font-weight: 400;
+                font-size: 14px;
+            }
+            
+            .navbar {
+                text-transform: uppercase;
+            }
+            
+            .navbar-brand img {
+                position: relative;
+                height: 40px;
+                max-width: 242px;
+                width: 100%;
+            }
+            
+            .carousel-indicators [data-bs-target] {
+                flex: 0 1 auto;
+                padding: 0;
+                text-indent: -999px;
+                border-top: 10px solid transparent;
+                border-bottom: 10px solid transparent;
+                transition: opacity .6s ease;
+                width: 3px;
+                height: 3px;
+                background: rgba(127, 127, 127, 1);
+                cursor: pointer;
+                border: 5px solid rgba(255, 255, 255, 1);
+                box-sizing: content-box;
+                box-shadow: 0px 0px 3px 1px rgb(0 0 0 / 20%);
+                margin: 0 3px;
+                line-height: 21px;
+            }
+            
+            .sign-up .column {
+                float: left;
+                width: 33.33%;
+                padding: 5px;
+                text-align: center;
+            }
+            
+            .section-padding {
+                padding: 20px 0;
+                text-align: center;
+                background: rgba(245, 245, 245, 1);
+            }
+            
+            .section-padding-2 {
+                padding: 20px 0;
+                text-align: center;
+            }
+            
+            .divider {
+                width: 208px;
+                position: absolute;
+                left: 50%;
+                margin-left: -104px;
+                margin-top: 10px;
+            }
+            
+            .divider .line {
+                width: 90px;
+                height: 1px;
+                background: #ccc;
+                float: left;
+            }
+            
+            .divider .circle {
+                width: 10px;
+                height: 10px;
+                border: 1px solid #ddd;
+                margin-left: 8px;
+                float: left;
+                margin-right: 8px;
+                margin-top: -5px;
+                box-sizing: content-box;
+            }
+            
+            .truck-lagbe-icon img {
+                height: 100px;
+                text-align: center;
+            }
+            
+            .item-name a {
+                text-decoration: none;
+                color: black;
+            }
+            
+            .container-fluid {
+                padding: 4px 4px 4px 4px;
+            }
+            
+            #truck-side {
+                padding-left: 10%;
+                padding-right: 10%;
+            }
+            
+            #caro-div {
+                margin-left: 400px;
+                margin-right: 400px;
+            }
+            
+            #blank-div {
+                padding-bottom: 300px;
+            }
+            
+            .carousel-control-next-icon,
+            .carousel-control-prev-icon {
+                display: inline-block;
+                width: 2rem;
+                height: 2rem;
+                background-repeat: no-repeat;
+                background-position: 50%;
+                background-size: 100% 100%;
+                background-color: rgba(127, 127, 127, 1);
+                border-radius: 40px;
+                height: 33px;
+                width: 26px;
+            }
+            
+            .col-4 {
+                flex: 0 0 auto;
+                width: 110px;
+                display: flex !important;
+                justify-content: center;
+                align-items: flex-start;
+                margin-left: 315px;
+                margin-right: -130px;
+            }
+            
+            #media-div {
+                margin-left: 357px;
+                margin-right: 301px;
+            }
+            
+            a,
+            p {
+                text-decoration: none;
+                color: #212121;
+            }
+            
+            #truck-ctg {
+                margin-left: 45px;
+                margin-right: 45px;
+            }
+            
+            .frature-list {
+                background: rgba(245, 245, 245, 1);
+                padding: 20px 50px;
+            }
+            
+            .frature-list ul {
+                list-style: none;
+            }
+            
+            #blog-div {
+                margin-left: 232px;
+                margin-right: 262px;
+            }
+            
+            #app-div {
+                margin-left: 444px;
+            }
+            
+            #app-sec {
+                background-image: url(https://www.trucklagbe.com/hubfs/0460_Feb_20_TL_Web-Strip_w-1424-x-h-198-px-20-Feb_01-scaled.jpg);
+                background-size: cover !important;
+                background-position: center center !important;
+                background-repeat: no-repeat !important;
+            }
+            
+            #footer-div {
+                margin-left: 257px;
+                margin-right: 290px;
+                margin-top: 55px;
+            }
+            
+            .scrollTop {
+                height: 50px;
+                width: 50px;
+                background: rgba(127, 127, 127, 1);
+                font-size: 40px;
+                text-align: center;
+                line-height: 50px;
+                border-radius: 50%;
+                position: fixed;
+                right: 20px;
+                bottom: 50px;
+                cursor: pointer;
+                color: white;
+                display: none;
+                z-index: 999;
+            }
+            
+            #sourav {
+                margin-left: 902px;
+                margin-right: 775px;
+            }
